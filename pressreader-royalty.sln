@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PressReader.Royalty.Implementation", "src\PressReader.Royalty.Implementation\PressReader.Royalty.Implementation.csproj", "{178BDA48-8637-4C6E-B362-21859CE45E2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PressReader.Royalty.DataSync", "src\PressReader.Royalty.DataSync\PressReader.Royalty.DataSync.csproj", "{BD5C6FCA-762D-49C1-9353-75037AED1EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressReader.Royalty.DataSync.Service", "src\PressReader.Royalty.DataSync.service\PressReader.Royalty.DataSync.Service.csproj", "{21FBC5B6-8234-4394-872F-B4CEB068AE55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PressReader.Royalty.Common", "src\PressReader.Royalty.Common\PressReader.Royalty.Common.csproj", "{70C729E4-D377-46F2-BED6-696960DD85E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressReader.Royalty.EventProcessor.Service", "src\PressReader.Royalty.EventProcessor.Service\PressReader.Royalty.EventProcessor.Service.csproj", "{48438720-23DF-4BB5-8CC8-AD39FDB89060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressReader.Royalty.CalcDispatcher.Service", "src\PressReader.Royalty.CalcDispatcher.Service\PressReader.Royalty.CalcDispatcher.Service.csproj", "{7A25531E-D785-498B-838B-07F331D12A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178BDA48-8637-4C6E-B362-21859CE45E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178BDA48-8637-4C6E-B362-21859CE45E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178BDA48-8637-4C6E-B362-21859CE45E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178BDA48-8637-4C6E-B362-21859CE45E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5C6FCA-762D-49C1-9353-75037AED1EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5C6FCA-762D-49C1-9353-75037AED1EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5C6FCA-762D-49C1-9353-75037AED1EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5C6FCA-762D-49C1-9353-75037AED1EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FBC5B6-8234-4394-872F-B4CEB068AE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FBC5B6-8234-4394-872F-B4CEB068AE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FBC5B6-8234-4394-872F-B4CEB068AE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FBC5B6-8234-4394-872F-B4CEB068AE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C729E4-D377-46F2-BED6-696960DD85E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C729E4-D377-46F2-BED6-696960DD85E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C729E4-D377-46F2-BED6-696960DD85E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C729E4-D377-46F2-BED6-696960DD85E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48438720-23DF-4BB5-8CC8-AD39FDB89060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48438720-23DF-4BB5-8CC8-AD39FDB89060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48438720-23DF-4BB5-8CC8-AD39FDB89060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48438720-23DF-4BB5-8CC8-AD39FDB89060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A25531E-D785-498B-838B-07F331D12A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A25531E-D785-498B-838B-07F331D12A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A25531E-D785-498B-838B-07F331D12A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A25531E-D785-498B-838B-07F331D12A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F0CD4BE-B5E2-4F56-A404-4569620B0EFC}
+	EndGlobalSection
+EndGlobal
